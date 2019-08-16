@@ -1,0 +1,10 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+[[mods]]
+modId="betaui"
+version="${file.jarVersion}"
+displayName="Beta UI"
+authors="Sam Carson"
+description='''
+Adds "Minecraft Beta 1.0.2" to the top-right of the GUI.
+'''
