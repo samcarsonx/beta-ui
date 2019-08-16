@@ -13,7 +13,7 @@
 ### What does it do?
 - Adds `Minecraft Beta 1.0.2` to the upper-left corner of the screen
 
-*Can be edited in xyz.samcarson.betaui.client.gui*
+*Can be edited in xyz.samcarson.betaui.client.ClientGui*
 - Hides the XP bar
 - Removes the hunger bar (hunger functionality is still in though!)
 
