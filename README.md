@@ -24,7 +24,7 @@
 
 
 ## Recommended resource pack
-The [Golden Days](https://www.planetminecraft.com/texture_pack/1-13-2-golden-days-beta-reversion-for-modern-minecraft/) resource pack on Planet Minecraft is a very good resource pack for making the game look like beta.
+The [Golden Days](https://www.planetminecraft.com/texture_pack/1-13-2-golden-days-beta-reversion-for-modern-minecraft/) resource pack on Planet Minecraft is a very good resource pack for making the game look like beta. Make sure you download all four of the Golden Days resource packs for the recommendations below.
 
 **The resource pack order I recommend (from top to bottom) is as follows:**
  1) **Sounds**
