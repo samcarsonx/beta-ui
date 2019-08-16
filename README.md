@@ -5,6 +5,7 @@
 [![Open Issues](https://img.shields.io/github/issues/samcarsonx/beta-ui)](https://github.com/samcarsonx/beta-ui/issues)
 ![Last Commit](https://img.shields.io/github/last-commit/samcarsonx/beta-ui)
 ![Commits since last release](https://img.shields.io/github/commits-since/samcarsonx/beta-ui/latest)
+![Forge version](https://img.shields.io/badge/forge-28.0.45-brightgreen)
  
  
 ## Forge mod to simulate the early-beta Minecraft HUD
