@@ -13,9 +13,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0'
-group = 'xyz.samcarson.betaText' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'betaText'
+version = '1.2'
+group = 'xyz.samcarson.betaui' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'betaui'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -115,7 +115,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "Beta Text",
+            "Specification-Title": "Beta UI",
             "Specification-Vendor": "Sam Carson",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
