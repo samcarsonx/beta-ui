@@ -18,6 +18,9 @@ public class Main {
 	public static final String MODID = "betaui";
 	public static final Logger LOGGER = LogManager.getLogger(MODID);
 	
+	public static final String TEXT = "Minecraft Beta 1.0.2";
+	public static final boolean disableSprinting = false;
+	
 	public Main() {
 		LOGGER.debug(Main.MODID);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(ProxyHandler::clientSetup);
@@ -28,11 +31,11 @@ public class Main {
 		// Client only
 		public static void clientSetup(FMLClientSetupEvent event) {
 			MinecraftForge.EVENT_BUS.register(ClientGui.class);
-			MinecraftForge.EVENT_BUS.register(ClientPlayer.class);
+			if (disableSprinting) { MinecraftForge.EVENT_BUS.register(ClientPlayer.class); }
 		}
 		// Client and server
 		public static void commonSetup(FMLCommonSetupEvent event) {
-			MinecraftForge.EVENT_BUS.register(CommonPlayer.class);
+			if (disableSprinting) { MinecraftForge.EVENT_BUS.register(CommonPlayer.class); }
 		}
 	}
 	

@@ -7,11 +7,9 @@ import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.client.event.RenderGameOverlayEvent.ElementType;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import xyz.samcarson.betaui.Main;
 
 public class ClientGui {
-	
-	private static String cornerText = "Minecraft Beta 1.0.2";
-	private static TextFormatting textColour = TextFormatting.WHITE;
 	
 	@SubscribeEvent
     public static void onRenderGuiPost(RenderGameOverlayEvent.Post event) {
@@ -19,7 +17,7 @@ public class ClientGui {
 			GlStateManager.popMatrix();
 		}
 		if (event.getType() == ElementType.TEXT) {
-			Minecraft.getInstance().fontRenderer.drawStringWithShadow(cornerText, 2, 2, textColour.getColor());
+			Minecraft.getInstance().fontRenderer.drawStringWithShadow(Main.TEXT, 2, 2, TextFormatting.WHITE.getColor());
 		}
 	}
 	
