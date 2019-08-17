@@ -14,7 +14,7 @@
 ### What does it do?
 - Adds `Minecraft Beta 1.0.2` to the upper-left corner of the screen
 
-*Can be edited in xyz.samcarson.betaui.client.ClientGui*
+*Can be edited in `xyz.samcarson.betaui.Main`*
 - Hides the XP bar
 - Removes the hunger bar (hunger functionality is still in though!)
 
@@ -22,6 +22,8 @@
 - Hides the health of a mount
 - Positions the player's health correctly (1 pixel above hotbar)
 - Disables sprinting
+
+*Optional, sprinting is enabled by default `xyz.samcarson.betaui.Main`*
 
 
 ## Recommended resource pack
